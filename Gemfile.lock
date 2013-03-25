@@ -19,6 +19,8 @@ GEM
       monkey-lib (~> 0.5.0)
       sinatra (~> 1.0)
       sinatra-sugar (~> 0.5.0)
+    sinatra-flash (0.3.0)
+      sinatra (>= 1.0.0)
     sinatra-reloader (0.5.0)
       sinatra (~> 1.0)
       sinatra-advanced-routes (~> 0.5.0)
@@ -34,4 +36,5 @@ DEPENDENCIES
   haml
   puma
   sinatra
+  sinatra-flash
   sinatra-reloader
